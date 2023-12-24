@@ -1,7 +1,24 @@
+// Download and install Visual Studio Code
+
+// Install the .NET SDK && verify : 
+dotnet --version
+
+//Configure Visual Studio Code Extensions
+  // C# Dev Kit - Official C# extension from Microsoft.
+  //    C# - Base language support for C#.
+  //    IntelliCode for C# - AI-assisted development for C# Dev Kit.
+  //    .NET Install Tool for Extension Authors.
+
+//Create, build, and run your application
 dotnet new console -o ./CsharpProjects/TestProject
 
+//Edit C# code in Program.cs 
 Console.WriteLine("Hello C#!");
 
+//compile a build of your application
+//command builds the project and its dependencies into a set of binaries. 
+//The binaries include the project's code in Intermediate Language (IL) files with a .dll extension. @ bin\Debug\net7.0\ 
 dotnet build
 
+//command runs source code without any explicit compile or launch commands
 dotnet run
