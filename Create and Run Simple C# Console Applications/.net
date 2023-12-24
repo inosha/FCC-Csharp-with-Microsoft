@@ -1,0 +1,7 @@
+dotnet new console -o ./CsharpProjects/TestProject
+
+Console.WriteLine("Hello C#!");
+
+dotnet build
+
+dotnet run
