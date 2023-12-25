@@ -16,3 +16,22 @@ Console.WriteLine(roll);
 // Or they modify the state of the application by updating values or storing new values in memory
 // When calling a stateful method, you need to create an instance of the class, and access the method on the object.
 // An instance of a class is called an object.
+
+//Overloaded methods
+
+Random dice = new Random();
+int roll1 = dice.Next();
+int roll2 = dice.Next(101);
+int roll3 = dice.Next(50, 101);
+
+Console.WriteLine($"First roll: {roll1}");
+Console.WriteLine($"Second roll: {roll2}");
+Console.WriteLine($"Third roll: {roll3}");
+
+//Code challenge: Implement a method of the Math class that returns the larger of two numbers
+
+int firstValue = 500;
+int secondValue = 600;
+int largerValue = System.Math.Max(firstValue,secondValue);
+
+Console.WriteLine(largerValue);
