@@ -27,13 +27,14 @@ I like all three of the menu choices
 */
 using System;
 
-// int periodLocation ;
 string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 
 foreach (string str in myStrings)
 {
     int periodLocation = 0;
-    string currentItem = str; // Cannot assign to 'str' because it is a 'foreach iteration variable'
+    string currentItem = str; //
+    //currentItem in rest of the the code because, 
+    //Cannot  modify 'str' because it is a 'foreach iteration variable' 
     
     do
     {
